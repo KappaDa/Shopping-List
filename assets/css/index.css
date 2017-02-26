@@ -1,0 +1,97 @@
+@charset "UTF-8";
+/* line 15, C:/Users/kappa/Desktop/HTML/Exercise/Shopping List/assets/css/index.scss */
+* {
+  position: relative;
+  font-family: 'Roboto', sans-serif, "微軟正黑體"; }
+
+/* line 21, C:/Users/kappa/Desktop/HTML/Exercise/Shopping List/assets/css/index.scss */
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  margin: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFC954; }
+
+/* line 33, C:/Users/kappa/Desktop/HTML/Exercise/Shopping List/assets/css/index.scss */
+h1 {
+  padding: 20px;
+  margin: -20px -20px 20px -20px;
+  border-bottom: solid 4px #444;
+  background-color: #FF3D4A;
+  color: #F3F3F3;
+  font-weight: 700; }
+
+/* line 42, C:/Users/kappa/Desktop/HTML/Exercise/Shopping List/assets/css/index.scss */
+.buy_item {
+  padding: 5px;
+  list-style: none;
+  border: solid 3px #444;
+  margin-top: 10px;
+  font-weight: 900; }
+  /* line 49, C:/Users/kappa/Desktop/HTML/Exercise/Shopping List/assets/css/index.scss */
+  .buy_item input {
+    width: 100px;
+    border: solid 3px;
+    padding: 2px; }
+  /* line 55, C:/Users/kappa/Desktop/HTML/Exercise/Shopping List/assets/css/index.scss */
+  .buy_item .price {
+    display: inline-block;
+    position: absolute;
+    padding-left: 8px;
+    padding-right: 8px;
+    right: 50px;
+    background-color: #FFC954; }
+    /* line 63, C:/Users/kappa/Desktop/HTML/Exercise/Shopping List/assets/css/index.scss */
+    .buy_item .price::before {
+      content: "$ "; }
+  /* line 68, C:/Users/kappa/Desktop/HTML/Exercise/Shopping List/assets/css/index.scss */
+  .buy_item .del_btn {
+    display: inline-block;
+    position: absolute;
+    padding: 0px 6px;
+    right: 10px;
+    cursor: pointer; }
+    /* line 75, C:/Users/kappa/Desktop/HTML/Exercise/Shopping List/assets/css/index.scss */
+    .buy_item .del_btn:hover {
+      background-color: #FF3D4A;
+      color: white; }
+  /* line 81, C:/Users/kappa/Desktop/HTML/Exercise/Shopping List/assets/css/index.scss */
+  .buy_item .addbtn {
+    cursor: pointer;
+    margin-left: 10px;
+    padding: 5px;
+    border: solid 3px #444; }
+    /* line 87, C:/Users/kappa/Desktop/HTML/Exercise/Shopping List/assets/css/index.scss */
+    .buy_item .addbtn:hover {
+      background-color: #FF3D4A;
+      color: white; }
+
+/* line 94, C:/Users/kappa/Desktop/HTML/Exercise/Shopping List/assets/css/index.scss */
+.control_panel {
+  padding: 20px; }
+
+/* line 98, C:/Users/kappa/Desktop/HTML/Exercise/Shopping List/assets/css/index.scss */
+.total {
+  background-color: #FF3D4A;
+  color: #F3F3F3; }
+  /* line 102, C:/Users/kappa/Desktop/HTML/Exercise/Shopping List/assets/css/index.scss */
+  .total .price {
+    background-color: transparent; }
+
+/* line 109, C:/Users/kappa/Desktop/HTML/Exercise/Shopping List/assets/css/index.scss */
+#buylist {
+  display: inline-block;
+  padding: 20px;
+  border: solid 4px #444;
+  background-color: #F3F3F3;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5); }
+
+/* line 117, C:/Users/kappa/Desktop/HTML/Exercise/Shopping List/assets/css/index.scss */
+#items_list {
+  margin-top: 10px;
+  padding: 5px; }
+
+/*# sourceMappingURL=index.css.map */
